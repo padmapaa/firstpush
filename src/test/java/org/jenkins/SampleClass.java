@@ -16,7 +16,8 @@ public class SampleClass {
 		drivr.manage().window().maximize();
 		Thread.sleep(4000);
 		drivr.get("https://adactinhotelapp.com/");
-		
+		System.out.println("My browser is not getting invoked");
+		System.out.println("i did everything correctly. So its not my mistake");
 	}
 
 }
