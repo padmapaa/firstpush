@@ -17,6 +17,9 @@ public class SampleClass {
 		Thread.sleep(4000);
 		drivr.get("https://adactinhotelapp.com/");
 		
+		System.out.println("My second for merge conflicts");
+		System.out.println("Now going to resolve the merge conflicts");
+		
 	}
 
 }
